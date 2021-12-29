@@ -2,7 +2,7 @@
 #/home/daniecom/public_html/resources/projects/websiteDesign
 deployment:
   tasks: 
-    - export DEPLOYPATH=/home/daniecom/public_html/resources/projects/teaCozy
+    - export DEPLOYPATH=/home/daniecom/public_html/resources/projects/websiteDesign
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp -R resources $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
     
